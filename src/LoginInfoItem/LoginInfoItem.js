@@ -122,7 +122,9 @@ class LoginInfoItem extends Component {
       height: "0px",
       border: "none",
       margin: "0 auto",
-      padding: "0"
+      padding: "0",
+      opacity: "0",
+      boxShadow: "none"
     };
     let componentStyle;
 
