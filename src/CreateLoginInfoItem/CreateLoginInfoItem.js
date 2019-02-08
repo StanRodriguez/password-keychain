@@ -52,7 +52,6 @@ class CreateLoginInfoItem extends Component {
     ).toString();
     const request = infoItemCopy;
     await axios.post("http://localhost:4567/login_info", request);
-    this.props.refresh();
     this.setState(prevState => {
       prevState.newLoginInfoItem.sub_username = "";
       prevState.newLoginInfoItem.sub_password = "";
@@ -60,6 +59,7 @@ class CreateLoginInfoItem extends Component {
       prevState.isShowingForm = false;
       return prevState;
     });
+    this.props.refresh();
   };
 
   handleDropdownChange = selectedService => {
