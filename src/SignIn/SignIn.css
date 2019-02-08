@@ -5,7 +5,7 @@
 .user-signin-form {
   display: flex;
   flex-direction: column;
-  max-width: 400px;
+  max-width: 200px;
   margin: auto;
 }
 
@@ -25,4 +25,13 @@
 }
 input {
   text-align: center;
+}
+
+.main-logo{
+  margin: 20px auto;
+  height:200px;
+  width: 200px;
+  border-radius: 200px;
+  border: 5px solid white;
+  background: linear-gradient(to right, limegreen 30%, rgb(35, 143, 35) 150%);
 }

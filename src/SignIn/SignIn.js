@@ -9,6 +9,7 @@ const SignIn = props => {
   return (
     <div className="signin-container">
       <h1>Welcome to Keychain</h1>
+      <div className="main-logo"></div>
       <form onSubmit={props.handleFormSubmit}>
         <div className="form-group user-signin-form">
           <input
