@@ -30,6 +30,10 @@ class App extends Component {
 
     if (username && password) {
       this.getUserInfo(username, password);
+      this.setState({
+        username: username,
+        password: password
+      })
     }
   };
   setUsername = (username, password) => {

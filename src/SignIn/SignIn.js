@@ -9,7 +9,6 @@ const SignIn = props => {
   }
   return (
     <div className="signin-container">
-      <h1>Welcome to Keychain</h1>
       <div className="main-logo">
         <img className="logo-image" src={mainLogo} />
       </div>
@@ -40,7 +39,7 @@ const SignIn = props => {
       {props.didSignInFail ? (
         <p>We can't find that username or password, please try again!</p>
       ) : null}
-      <h2>Not a member yet?</h2>
+      <h4>Not a member yet?</h4>
       <p>
         <Link to={`/signup`}>Click here</Link> to sign up!
       </p>
