@@ -12,7 +12,6 @@ const SignIn = props => {
       <form onSubmit={props.handleFormSubmit}>
         <div className="form-group user-signin-form">
           <input
-            placeholder="password"
             className="form-control edit-input"
             type="text"
             name="username"
@@ -23,7 +22,6 @@ const SignIn = props => {
         </div>
         <div className="form-group user-signin-form">
           <input
-            placeholder="password"
             className="form-control edit-input"
             type="password"
             name="password"
