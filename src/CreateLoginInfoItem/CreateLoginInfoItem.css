@@ -1,0 +1,15 @@
+.newButton{
+    height: 100px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin: 10px auto;
+    font-size: 40px;
+    background-color: rgba(83, 198, 236, 0.185);
+    transition: height 1s;
+    overflow: hidden;
+}
+
+.plus-sign{
+    transition: font-size .5s, color 1s ;
+}

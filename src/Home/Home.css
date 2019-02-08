@@ -1,0 +1,4 @@
+.home-display{
+    transition: opacity 1s;
+    overflow: scroll;
+}

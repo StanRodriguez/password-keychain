@@ -1,0 +1,76 @@
+.item {
+  height: 100px;
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 30px;
+  margin: 10px auto;
+  overflow: hidden;
+  transition: height 1s, background-color 1s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.item-heading-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 50px 10px 10px 10px;
+  transition: margin 1s;
+}
+.item-title {
+  font-family: sans-serif;
+  display: inline-block;
+  margin: 20px 40px;
+}
+.item-detail-wrapper {
+  transition: opacity 1s;
+}
+
+.button-wrapper {
+  display: flex;
+  transition: opacity 1s;
+}
+
+.delete-button,
+.edit-button {
+  padding: 15px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  background-color: lightgreen;
+  border-radius: 15px;
+  color: black;
+  border: 3px solid white;
+  transition: background-color 0.2s;
+}
+
+.delete-button {
+  background-color: lightcoral;
+}
+
+.edit-button {
+  background-color: lightgreen;
+}
+
+.delete-button:active,
+.edit-button:active {
+  background-color: white;
+}
+
+.edit-input {
+  font-size: 20px;
+  font-family: sans-serif;
+  margin: 5px;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  border-radius: 15px;
+}

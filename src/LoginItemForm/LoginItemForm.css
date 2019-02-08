@@ -1,0 +1,23 @@
+.form-container{
+    opacity: 0;
+    transition: opacity 1s;
+    display: flex;
+    flex-direction: column;
+}
+.label{
+    font-size: 15px;
+}
+
+.submit-button{
+    padding: 15px;
+    margin: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    background-color: lightgreen;
+    border-radius: 15px;
+    color: black;
+    border: 3px solid white;
+    transition: background-color .2s;
+}
