@@ -29,9 +29,16 @@ input {
 
 .main-logo{
   margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height:200px;
   width: 200px;
   border-radius: 200px;
   border: 5px solid white;
   background: linear-gradient(to right, limegreen 30%, rgb(35, 143, 35) 150%);
+}
+.logo-image{
+  height:150px;
+  width: 150px;
 }

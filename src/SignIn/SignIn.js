@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, Redirect } from "react-router-dom";
+import mainLogo from "./image-assets/keychain-logo.png"
 import "./SignIn.css";
 
 const SignIn = props => {
@@ -9,7 +10,9 @@ const SignIn = props => {
   return (
     <div className="signin-container">
       <h1>Welcome to Keychain</h1>
-      <div className="main-logo"></div>
+      <div className="main-logo">
+        <img className="logo-image" src={mainLogo} />
+      </div>
       <form onSubmit={props.handleFormSubmit}>
         <div className="form-group user-signin-form">
           <input
