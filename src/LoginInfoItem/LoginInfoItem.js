@@ -115,7 +115,7 @@ class LoginInfoItem extends Component {
       backgroundColor: "white"
     };
     let openStyle = {
-      height: "300px",
+      height: "350px",
       backgroundColor: "rgba(225,255,209,1)"
     };
     let deletedStyle = {
@@ -146,7 +146,7 @@ class LoginInfoItem extends Component {
           style={
             this.state.isShowingDetail
               ? { margin: "20px 10px 10px 10px" }
-              : { margin: "50px 10px 10px 10px" }
+              : { margin: "10px 10px 10px 20px" }
           }
         >
           <img

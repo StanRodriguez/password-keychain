@@ -1,15 +1,15 @@
 .item {
-  height: 100px;
+  height: 200px;
   width: 400px;
   border: 1px solid black;
   border-radius: 30px;
   margin: 10px auto;
   overflow: hidden;
-  transition: height 1s, background-color 1s, opacity .5s;
+  transition: height 1s, background-color 1s, opacity 0.5s;
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 .item-heading-wrapper {
   display: flex;
